@@ -1,35 +1,34 @@
 {
   "Version": "1.0.2",
   "ReleaseNotes": "UPDATE ONLINE @welingtonn",
-  "UrlUpdate": "https://raw.githubusercontent.com/biscoitocrocante/biscoitocrocante/main/Gnet-up",
-  "Sms": "https://raw.githubusercontent.com/biscoitocrocante/biscoitocrocante/main/Url-sms",
+  "UrlUpdate": "https://bitbin.it/DWbrLtPZ/raw/",
+  "Sms": "",
   "EmailFeedback": "welingtonnssh@gmail.com",
   "UrlContato": "https://t.me/welingtonn",
-  "UrlTermos": "https://",
+  "UrlTermos": "https://t.me/welingtonn",
   "CheckUser": "true",
   "Udp": [
     {
-      "Porta": "7100"
-    },
-    {
-      "Porta": "7200"
-    },
-    {
       "Porta": "7300"
-    },
-    {
-      "Porta": "7400"
-    },
-    {
-      "Porta": "7500"
     }
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR BR1",
+      "Name": "Servidor PREMIUM 1",
       "TYPE": "premium",
       "FLAG": "br.png",
-      "ServerIP": "",
+      "ServerIP": "br1.chockdigi.ml",
+      "CheckUser": "http://",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    },
+    {
+      "Name": "SERVIDOR PREMIUM 2",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "br2.chockdigi.ml",
       "CheckUser": "http://",
       "ServerPort": "22",
       "SSLPort": "443",
@@ -38,44 +37,94 @@
     }
   ],
   "Networks": [
-    {
-      "Name": "VIVO",
+  {
+      "Name": "VIVO SSL 1",
       "FLAG": "vivo",
-      "Payload": "GET sni://vv.chockdigi.ml HTTP/1.1[crlf]Host: br1.chockdigi.ml[crlf]X-Forward-Host: [crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
-      "SNI": "vv.chockdigi.ml",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "104.18.6.80",
+      "ProxyIP": "104.18.6.80",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+  {
+    "Name": "VIVO SSL 2",
+      "FLAG": "vivo",
+      "Payload": "GET ws://gedoc.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "gedoc.vivo.com.br",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-    {
-      "Name": "VIVO DIRECT",
+  {
+      "Name": "VIVO SSL 3",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br1.chockdigi.ml[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "Direct"
-    },
-    {
-      "Name": "TIM - VIVO",
-      "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br1.chockdigi.ml [crlf]X-Forward-Host: br1.chockdigi.ml[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.7.80",
-      "ProxyPort": "80",
-      "Info": "Proxy"
-    },
-    {
-      "Name": "VIVO",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vv.chockdigi.ml HTTP/1.1[crlf]Host: br1.chockdigi.ml[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "vv.chockdigi.ml",
-      "TlsIP": "104.18.7.80",
+      "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "vigia.vivo.com.br",
+      "TlsIP": "104.18.6.80",
       "ProxyIP": "",
       "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+  {
+      "Name": "TIM SSL  ",
+      "FLAG": "tim",
+      "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "static.r4you.co",
+      "ProxyIP": "static.r4you.co",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM SSL 2 ",
+      "FLAG": "tim",
+      "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "cutim.com.br",
+      "TlsIP": "cutim.com.br",
+      "ProxyIP": "cutim.com.br",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },   
+  {
+      "Name": "TIM SSL 3 ",
+      "FLAG": "tim",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+  {
+      "Name": "TIM SSL 4 ",
+      "FLAG": "tim",
+      "Payload": "GET ws://consultatim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "consultatim.com.br",
+      "TlsIP": "consultatim.com.br",
+      "ProxyIP": "consultatim.com.br",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO SSL ",
+      "FLAG": "claro",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]upgrade: websocket[crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "199.60.103.28",
+      "ProxyIP": "199.60.103.28",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "CLARO SSL 2",
+      "FLAG": "claro",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: keep-alive[lf]User-Agent: [ua][lf]X-Forward-Host: [host][lf]Connection: HTTP2-Settings > Upgrade: h2[lf]Upgrade: HTTP/2, websocket[lf]Sec-WebSocket-Extensions: superspeed[lf][lf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "199.60.103.28",
+      "ProxyIP": "199.60.103.28",
+      "ProxyPort": "443",
       "Info": "Tlsws"
     }
   ]
