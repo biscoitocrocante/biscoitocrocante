@@ -1,6 +1,6 @@
 {
   "Version": "1.0.2",
-  "ReleaseNotes": "TESTE UPDATE ONLINE @welingtonn",
+  "ReleaseNotes": "UPDATE ONLINE @welingtonn",
   "UrlUpdate": "https://raw.githubusercontent.com/biscoitocrocante/biscoitocrocante/main/Gnet-up",
   "Sms": "https://raw.githubusercontent.com/biscoitocrocante/biscoitocrocante/main/Url-sms",
   "EmailFeedback": "welingtonnssh@gmail.com",
@@ -26,11 +26,23 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR BR",
+      "Name": "SERVIDOR BR1",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br1.chockdigi.ml",
-      "CheckUser": "http://15.229.35.176:8990",
+      "CheckUser": "http://",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
+  ],
+  {
+      "Name": "SERVIDOR BR2",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "br2.chockdigi.ml",
+      "CheckUser": "http://",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -41,7 +53,7 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET sni://vv.chockdigi.ml HTTP/1.1[crlf]Host: br1.chockdigi.ml[crlf]X-Forward-Host: br1.chockdigi.ml[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
+      "Payload": "GET sni://vv.chockdigi.ml HTTP/1.1[crlf]Host: br1.chockdigi.ml[crlf]X-Forward-Host: [crlf]Connection: upgrade[crlf]upgrade: websocket[crlf][crlf]",
       "SNI": "vv.chockdigi.ml",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
@@ -51,7 +63,7 @@
     {
       "Name": "VIVO DIRECT",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br1.chockdigi.ml[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
@@ -59,8 +71,8 @@
       "Info": "Direct"
     },
     {
-      "Name": "VIVO",
-      "FLAG": "vivo",
+      "Name": "TIM - VIVO",
+      "FLAG": "tim",
       "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br1.chockdigi.ml [crlf]X-Forward-Host: br1.chockdigi.ml[crlf]Connection: upgrade[crlf]upgrade: websocket[crlf] GET [host_port][protocol][crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
@@ -69,9 +81,9 @@
       "Info": "Proxy"
     },
     {
-      "Name": "VIVO",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vv.chockdigi.ml HTTP/1.1[crlf]Host: br2.chockdigi.ml[crlf]Upgrade: websocket[crlf][crlf]",
+      "Name": "OI - VIVO",
+      "FLAG": "oi",
+      "Payload": "GET wss://vv.chockdigi.ml HTTP/1.1[crlf]Host: br1.chockdigi.ml[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "vv.chockdigi.ml",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
