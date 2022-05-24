@@ -71,7 +71,7 @@
     {
       "Name": "VIVO",
       "FLAG": "vivo",
-      "Payload": "GET wss://vv.chockdigi.ml HTTP/1.1[crlf]Host: br1.chockdigi.ml[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://vv.chockdigi.ml HTTP/1.1[crlf]Host: br2.chockdigi.ml[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "vv.chockdigi.ml",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "",
