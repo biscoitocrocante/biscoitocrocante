@@ -36,7 +36,6 @@
       "USER": "",
       "PASS": ""
     }
-  ],
   {
       "Name": "SERVIDOR BR2",
       "TYPE": "premium",
@@ -81,8 +80,8 @@
       "Info": "Proxy"
     },
     {
-      "Name": "OI - VIVO",
-      "FLAG": "oi",
+      "Name": "VIVO",
+      "FLAG": "vivo",
       "Payload": "GET wss://vv.chockdigi.ml HTTP/1.1[crlf]Host: br1.chockdigi.ml[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "vv.chockdigi.ml",
       "TlsIP": "104.18.7.80",
