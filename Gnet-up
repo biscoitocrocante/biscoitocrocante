@@ -14,7 +14,7 @@
   ],
   "Servers": [
     {
-      "Name": "Servidor PREMIUM 1",
+      "Name": "SERVIDOR 1",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br1.chockdigi.ml",
@@ -25,7 +25,7 @@
       "PASS": ""
     },
     {
-      "Name": "SERVIDOR PREMIUM 2",
+      "Name": "SERVIDOR 2",
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br2.chockdigi.ml",
