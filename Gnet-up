@@ -100,31 +100,31 @@
   {
       "Name": "TIM SSL 4 ",
       "FLAG": "tim",
-      "Payload": "GET ws://consultatim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
-      "SNI": "consultatim.com.br",
-      "TlsIP": "consultatim.com.br",
-      "ProxyIP": "consultatim.com.br",
+      "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.7.80",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "❤️CLARO [SSL 2]",
+      "FLAG": "claro",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+      "SNI": "atendimento.descomplica.com.br",
+      "TlsIP": "714341g41.secure0121.hubspot.net",
+      "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "CLARO SSL ",
+      "Name": "❤️CLARO [SSL 3]",
       "FLAG": "claro",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "199.60.103.28",
-      "ProxyIP": "199.60.103.28",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-    {
-      "Name": "CLARO SSL 2",
-      "FLAG": "claro",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: keep-alive[lf]User-Agent: [ua][lf]X-Forward-Host: [host][lf]Connection: HTTP2-Settings > Upgrade: h2[lf]Upgrade: HTTP/2, websocket[lf]Sec-WebSocket-Extensions: superspeed[lf][lf]",
-      "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "199.60.103.28",
-      "ProxyIP": "199.60.103.28",
-      "ProxyPort": "443",
+      "TlsIP": "199.60.103.228",
+      "ProxyIP": "",
+      "ProxyPort": "",
       "Info": "Tlsws"
     }
   ]
