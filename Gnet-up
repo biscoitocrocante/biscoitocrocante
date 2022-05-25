@@ -1,6 +1,6 @@
 {
   "Version": "1.0.2",
-  "ReleaseNotes": "Atualizando...",
+  "ReleaseNotes": "🔄NOVA ATUALIZAÇÃO DISPONIVEL",
   "UrlUpdate": "",
   "Sms": "",
   "EmailFeedback": "welingtonnssh@gmail.com",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br1.chockdigi.ml",
-      "CheckUser": "http://18.230.197.62:5454/checkUser",
+      "CheckUser": "http://18.230.197.62:8989/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
