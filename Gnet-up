@@ -38,7 +38,7 @@
   ],
   "Networks": [
   {
-      "Name": "🟣VIVO [SSL 1]",
+      "Name": "🟣VIVO P1",
       "FLAG": "vivo",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
@@ -48,7 +48,7 @@
       "Info": "Tlsws"
     },
   {
-    "Name": "🟣VIVO [SSL 2]",
+    "Name": "🟣VIVO P2",
       "FLAG": "vivo",
       "Payload": "GET ws://gedoc.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "gedoc.vivo.com.br",
@@ -58,7 +58,7 @@
       "Info": "Tlsws"
     },
   {
-      "Name": "🟣VIVO [SSL 3]",
+      "Name": "🟣VIVO P3",
       "FLAG": "vivo",
       "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "vigia.vivo.com.br",
@@ -68,7 +68,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🟣VIVO [PROXY]",
+      "Name": "🟣VIVO P1",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "",
@@ -78,7 +78,7 @@
       "Info": "Proxy"
     },
   {
-      "Name": "🔵TIM SSL  ",
+      "Name": "🔵TIM P1",
       "FLAG": "tim",
       "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "static.r4you.co",
@@ -88,7 +88,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔵TIM SSL 2 ",
+      "Name": "🔵TIM P2",
       "FLAG": "tim",
       "Payload": "GET ws://cutim.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "cutim.com.br",
@@ -98,7 +98,7 @@
       "Info": "Tlsws"
     },   
   {
-      "Name": "🔵TIM [SSL 3]",
+      "Name": "🔵TIM P3",
       "FLAG": "tim",
       "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "cdnjs.cloudflare.com",
@@ -108,7 +108,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔴CLARO [SSL 1]",
+      "Name": "🔴CLARO P1",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
@@ -118,7 +118,7 @@
       "Info": "Tlsws"
     },
     {
-      "Name": "🔴️CLARO [SSL 2]",
+      "Name": "🔴️CLARO P2",
       "FLAG": "claro",
       "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: [app_host][crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "atendimento.descomplica.com.br",
