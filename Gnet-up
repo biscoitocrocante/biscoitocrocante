@@ -1,7 +1,7 @@
 {
   "Version": "1.0.2",
-  "ReleaseNotes": "UPDATE ONLINE @welingtonn",
-  "UrlUpdate": "https://bitbin.it/DWbrLtPZ/raw/",
+  "ReleaseNotes": "Atualizando...",
+  "UrlUpdate": "",
   "Sms": "",
   "EmailFeedback": "welingtonnssh@gmail.com",
   "UrlContato": "https://t.me/welingtonn",
@@ -18,7 +18,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br1.chockdigi.ml",
-      "CheckUser": "http://18.230.197.62:8989/checkUser",
+      "CheckUser": "http://18.230.197.62:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
