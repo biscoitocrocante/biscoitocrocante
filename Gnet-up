@@ -27,7 +27,7 @@
     {
       "Name": "🌐SERVIDOR 2",
       "TYPE": "premium",
-      "FLAG": "aws.png",
+      "FLAG": "br.png",
       "ServerIP": "br2.chockdigi.ml",
       "CheckUser": "http://",
       "ServerPort": "22",
