@@ -16,7 +16,7 @@
     {
       "Name": "🌐SERVIDOR 1",
       "TYPE": "premium",
-      "FLAG": "br.png",
+      "FLAG": "oracle.png",
       "ServerIP": "br1.chockdigi.ml",
       "CheckUser": "http://18.230.197.62:8989/checkUser",
       "ServerPort": "22",
@@ -27,7 +27,7 @@
     {
       "Name": "🌐SERVIDOR 2",
       "TYPE": "premium",
-      "FLAG": "br.png",
+      "FLAG": "aws.png",
       "ServerIP": "br2.chockdigi.ml",
       "CheckUser": "http://",
       "ServerPort": "22",
