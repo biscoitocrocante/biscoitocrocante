@@ -34,7 +34,7 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
-},
+    },
     {
       "Name": "🌐SERVIDOR 3",
       "TYPE": "premium",
@@ -69,7 +69,18 @@
       "Info": "Tlsws"
     },
   {
-      "Name": "🟣VIVO P3",
+    "Name": "🟣VIVO P3",
+      "FLAG": "vivo",
+      "Payload": "GET ws://cname.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "cname.vivo.com.br",
+      "TlsIP": "162.159.135.63",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+  
+  {
+      "Name": "🟣VIVO P1",
       "FLAG": "vivo",
       "Payload": "GET ws://vigia.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "vigia.vivo.com.br",
@@ -78,8 +89,18 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-    {
-      "Name": "🟣VIVO P1",
+   {
+    "Name": "🟣VIVO P1",
+      "FLAG": "vivo",
+      "Payload": "GET ws://cname.vivo.com.br HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "162.159.135.63",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+   {
+      "Name": "🟣VIVO P2",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
       "SNI": "",
@@ -88,7 +109,7 @@
       "ProxyPort": "80",
       "Info": "Proxy"
     },
-  {
+    {
       "Name": "🔵TIM P1",
       "FLAG": "tim",
       "Payload": "GET ws://static.r4you.co HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
@@ -108,7 +129,7 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },   
-  {
+    {
       "Name": "🔵TIM P3",
       "FLAG": "tim",
       "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: [app_host]\nUpgrade: ws\n\n",
