@@ -29,7 +29,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br2.chockdigi.ml",
-      "CheckUser": "http://18.230.197.62",
+      "CheckUser": "http://15.229.35.176:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
