@@ -40,7 +40,7 @@
       "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "br3.chockdigi.ml",
-      "CheckUser": "http://",
+      "CheckUser": "http://15.229.35.176:5000/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
