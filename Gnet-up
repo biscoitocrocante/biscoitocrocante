@@ -7,6 +7,7 @@
   "UrlContato": "https://t.me/welingtonn",
   "UrlTermos": "https://t.me/welingtonn",
   "CheckUser": "true",
+  "FormatCheck": "ddmmyyyy",
   "Udp": [
     {
       "Porta": "7300"
